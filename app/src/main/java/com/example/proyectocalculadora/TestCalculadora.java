@@ -13,6 +13,12 @@ public class TestCalculadora {
         assertEquals(5.0, resultado, 0.001);
     }
 
+    public void testSuma2() {
+        Calculadora calculadora = new Calculadora();
+        double resultado = calculadora.sumar(8.0, 3.0);
+        assertEquals(11.0, resultado, 0.001);
+    }
+
     @Test
     public void testResta() {
         Calculadora calculadora = new Calculadora();
